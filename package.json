@@ -1,11 +1,28 @@
 {
-  "name": "jchan-website",
+  "name": "shielded-temple-70938",
   "version": "1.0.0",
-  "description": "My personal website deployed with Heroku",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "core-js": "^3.6.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "file-loader": "^6.0.0",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.14",
+    "morgan": "~1.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "main": "index.ejs",
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jadessechan/jchan-website.git"
@@ -15,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/jadessechan/jchan-website/issues"
   },
-  "homepage": "https://github.com/jadessechan/jchan-website#readme"
+  "homepage": "https://github.com/jadessechan/jchan-website#readme",
+  "description": ""
 }
