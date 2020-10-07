@@ -90,10 +90,15 @@ img {
     height: auto;
 }
 
-.projpage {
+#notTheBottom {
+    margin-bottom: 5em;
+}
+
+
+/* .projpage {
     margin-top: 4vh;
     margin-bottom: 2vh;
-}
+} */
 
 #toAbout:hover {
     background-color: white !important;
@@ -126,8 +131,8 @@ img {
 /* About */
 .About {
     background-color: white;
-    height: 100vh;
-    padding-top: 15vh;
+    height: 140vh;
+    padding-top: 50vh;
 }
 
 #textInfo {
