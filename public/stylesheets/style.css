@@ -76,7 +76,8 @@ img {
 
 /* PROJECTS */
 #Projects {
-    background-color: #FEE7ED;
+    /* background-color: #FEE7ED; */
+    background-color: #F0F0F0;
     height: 110vh;
     padding-top: 15vh;
     padding-bottom: 5vh;
