@@ -9,6 +9,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var yelpcampRouter = require('./routes/yelpcamp');
 var neuralnetworkRouter = require('./routes/neuralnetwork');
+var litmagRouter = require('./routes/litmag');
 
 
 
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/yelpcamp', yelpcampRouter);
 app.use('/neuralnetwork', neuralnetworkRouter);
+app.use('/litmag', litmagRouter);
 
 
 
