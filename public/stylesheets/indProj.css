@@ -24,6 +24,10 @@ html, body {
     position: relative;
 }
 
+#banner {
+    background-color: #9CDCED;
+}
+
 #footer {
     background-color: #FEE7ED;
 }
