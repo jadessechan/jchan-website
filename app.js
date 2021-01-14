@@ -39,7 +39,6 @@ app.use('/neuralnetwork', neuralnetworkRouter);
 app.use('/litmag', litmagRouter);
 
 
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

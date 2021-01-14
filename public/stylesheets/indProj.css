@@ -72,3 +72,14 @@ p {
     margin-top: 4.5vh;
     padding-bottom: 3vh;
 }
+
+footer {
+    /* background-color: #FFCC9E; */
+    background-color: white;
+    padding: 5vh 3em 5vh 1em;
+}
+
+    footer img {
+        width: 2em;
+        margin-right: 20px;
+    }

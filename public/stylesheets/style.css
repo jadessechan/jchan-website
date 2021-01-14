@@ -158,11 +158,14 @@ img {
 }
 
 footer {
-    background-color: #FFCC9E;
+    /* background-color: #FFCC9E; */
+    background-color: white;
     padding: 5vh 3em 5vh 1em;
 }
 
-#socials {
-    width: 8em;
-    margin-bottom: 1em;
-}
+    footer img {
+        width: 2em;
+        margin-right: 20px;
+    }
+
+    
