@@ -1,25 +1,29 @@
 <%- include('partials/header') %>
 
-<section id="header">
-    <div id="First" class="container-fluid">
-        <div id="jumbotron" class="row justify-content-center align-items-center">
-            <div class="col-5">
-                <img id="avatar" src="https://i.ibb.co/8MZJRwG/Group-5.png" alt="">
+<section id="header" class="container-fluid px-0">
+    <div id="First">
+        <div id="jumbotron" class="row justify-content-md-center">
+            <div class="col-md-5">
+                <div class="d-none d-md-block mt-5">
+                    <img id="avatar" class="img-fluid" src="https://i.ibb.co/8MZJRwG/Group-5.png" alt="">
+                </div>
             </div>
-            <div id="intro" class="col-7">
-                <h1>Welcome! <br>
-                    I'm Jadesse Chan,
-                </h1>
-                <p> a <strong>Computer Science</strong> major with a plan to minor in <strong>Creative Writing</strong> at <strong>Rhodes College</strong>.
-                    I love <strong>front-end web development</strong> because I can combine my passions for art and CS. I thrive in small collaborative environments, 
-                    so that I can build meaningful relationships with my mentors and peers.
-                    <strong>Creativity</strong>, <strong>attentiveness</strong>, and <strong>dedication</strong> are some of my best traits and
-                    I am <strong>always seeking to learn more!</strong>
-                   </p>
+            <div id="intro" class="col-md-7">
+                <div class="container-fluid">
+                    <h1>Welcome! <br>
+                        I'm Jadesse Chan,
+                    </h1>
+                    <p> a <strong>Computer Science</strong> major with a plan to minor in <strong>Creative Writing</strong> at <strong>Rhodes College</strong>.
+                        I love <strong>front-end web development</strong> because I can combine my passions for art and CS. I thrive in small collaborative environments, 
+                        so that I can build meaningful relationships with my mentors and peers.
+                        <strong>Creativity</strong>, <strong>attentiveness</strong>, and <strong>dedication</strong> are some of my best traits and
+                        I am <strong>always seeking to learn more!</strong>
+                       </p>
+                </div>
             </div>
         </div>
-
-
+    </div>
+        
         <div class="d-flex flex-column justify-content-center align-items-center col-12">
             <div class="d-flex justify-content-center">
                 <a id="toProjects" href="#Projects" type="button" class="btn .btn-outline-* btn-sm smoothScroll">Projects</a>
@@ -84,6 +88,7 @@
     </div>
 </section>
 
+
 <!-- ABOUT -->
 <section class="About">
     <div id="About" class="container-fluid">
@@ -91,10 +96,12 @@
         <div class="row">
             <p id="textInfo">
                 When I'm not coding, you can find me...
-                <li>🗺 Exploring art museums</li>
-                <li>🎞 Shooting film photography </li>
-                <li>🎧 Listing to podcasts by Business of Fashion</li>
-                <li>🧘🏻‍♀️ Meditating</li>
+                <ul>
+                    <li>🗺 Exploring art museums</li>
+                    <li>🎞 Shooting film photography </li>
+                    <li>🎧 Listing to podcasts by Business of Fashion</li>
+                    <li>🧘🏻‍♀️ Meditating</li>
+                </ul>
             </p>
             <div class="container-fluid">
                 <div class="row row-cols-4 d-flex justify-content-center">
@@ -119,6 +126,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <%- include('partials/footer') %>
