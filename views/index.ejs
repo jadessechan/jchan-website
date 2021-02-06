@@ -2,7 +2,7 @@
 
 <section id="header" class="container-fluid px-0">
     <div id="First">
-        <div id="jumbotron" class="row justify-content-md-center">
+        <div id="jumbotron" class="row align-items-center">
             <div class="col-md-5">
                 <div class="d-none d-md-block mt-5">
                     <img id="avatar" class="img-fluid" src="https://i.ibb.co/8MZJRwG/Group-5.png" alt="">
@@ -24,7 +24,7 @@
         </div>
     </div>
         
-        <div class="d-flex flex-column justify-content-center align-items-center col-12">
+        <div class="d-flex flex-column align-items-center">
             <div class="d-flex justify-content-center">
                 <a id="toProjects" href="#Projects" type="button" class="btn .btn-outline-* btn-sm smoothScroll">Projects</a>
             </div>
@@ -40,9 +40,9 @@
     <div id="Projects" class="container-fluid">
         <h1 id="pg2" class="mb-5">Projects</h1>
         <!-- trying responsive row -->
-        <div class="row row-cols-2">
+        <div class="row justify-content-center">
             <!-- YELPCAMP -->
-            <div id="notTheBottom" class="col-6 d-flex justify-content-center">
+            <div id="notTheBottom" class="col-6-md d-flex justify-content-center">
                 <a class="projImg" href="/yelpcamp">
                     <h4>⛺️ YelpCamp</h4>
                     <div>
@@ -53,7 +53,7 @@
                 </a>
             </div>
             <!-- NEURAL NETWORK -->
-            <div id="notTheBottom" class="col-6 d-flex justify-content-center">
+            <div id="notTheBottom" class="col-6-md d-flex justify-content-center">
                 <a class="projImg" href="/neuralnetwork">
                     <h4>🧠 Neural Network</h4>
                     <div>
@@ -63,8 +63,9 @@
                     <!-- <img class="projImg" src="https://i.imgur.com/8STZwV6.png" title="source: imgur.com" name="NeuralNetwork" type="button" > -->
                 </a>
             </div>
+
             <!-- LIT MAG -->
-            <div class="col-6 d-flex justify-content-center">
+            <div class="col-6-md d-flex justify-content-center">
                 <a class="projImg" href="/litmag">
                     <h4>🪶 Crow Magazine</h4>
                     <div>
@@ -126,6 +127,6 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <%- include('partials/footer') %>
