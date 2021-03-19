@@ -9,7 +9,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var yelpcampRouter = require('./routes/yelpcamp');
 var neuralnetworkRouter = require('./routes/neuralnetwork');
-var textpredictionRouter = require('./routes/textprediction');
+var litmagRouter = require('./routes/litmag');
 
 
 
@@ -36,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/yelpcamp', yelpcampRouter);
 app.use('/neuralnetwork', neuralnetworkRouter);
-app.use('/textprediction', textpredictionRouter);
+app.use('/litmag', litmagRouter);
 
 
 // catch 404 and forward to error handler
