@@ -1,2 +1,2 @@
 # jchan-website
-My personal website using node.js and deployed with Heroku
+My personal website using Express.js and deployed with Heroku
