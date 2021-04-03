@@ -3,15 +3,18 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+
 }
 
 #mainNavbar {
-    background-color: white;
+    background-color: rgba(255,255,255, 0.5);
+    backdrop-filter: blur(7px);
     padding: 1rem 1rem;
 }
 
 .navbar.scrolled {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     z-index: 99;
     transition: 400ms;
 }
@@ -19,7 +22,6 @@ html, body {
 
 /* HOME */
 #header {
-    background-color: #9CDCED;
     height: 100vh;
 
 }
@@ -37,20 +39,34 @@ img {
 }
 
 #intro {
+    /* background-color: aqua; */
+    /* padding-right: 3.5rem;
+    font-size: 1.1rem;
+    line-height: 1.7; */
+}
+
+.card {
+	/* other styles */
+    /* background-color: #9CDCED */
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+
     padding-right: 3.5rem;
+    padding-left: 3.5rem;
     font-size: 1.1rem;
     line-height: 1.7;
 }
 
 #toProjects:hover {
-    background-color: #FFCC9E !important;
-    outline-color: #FFCC9E !important;
+    background-color:rgba(255,255,255, 0.5) !important;
+    outline-color: rgba(255,255,255, 0.5) !important;
     box-shadow: none;
 }
 
 #toProjects.hovered {
-    background-color: #FFCC9E !important;
-    outline-color: #FFCC9E !important;
+    background-color: rgba(255,255,255, 0.5) !important;
+    outline-color: rgba(255,255,255, 0.5) !important;
     color: black;
     box-shadow: none;
 }
@@ -66,7 +82,7 @@ img {
 }
 
 #downArrow1.hovered {
-    color: #FFAD63 !important;
+    color: rgba(255,255,255, 0.5) !important;
     font-size: 1rem;
 }
 
@@ -76,13 +92,11 @@ img {
 
 /* PROJECTS */
 #Projects {
-    background-color: #FEE7ED;
     height: 100vh;
     padding: 15vh 5em 5vh 5em;
 }
 
 .projImg {
-    /* background-color: #FFAD63; */
     display: block;
     color: black;
     padding: 2vh 2em 2vh 2em;
@@ -106,14 +120,14 @@ img {
 } */
 
 #toAbout:hover {
-    background-color: white !important;
-    outline-color: white !important;
+    background-color: rgba(255,255,255, 0.5) !important;
+    outline-color: rgba(255,255,255, 0.5) !important;
     box-shadow: none;
 }
 
 #toAbout.hovered {
-    background-color: white !important;
-    outline-color: white !important;
+    background-color: rgba(255,255,255, 0.5) !important;
+    outline-color: rgba(255,255,255, 0.5) !important;
     color: black;
     box-shadow: none;
 }
@@ -123,19 +137,18 @@ img {
 }
 
 #downArrow2 {
-    color: white;
+    color: rgba(255,255,255, 0.5);
     height: 7px;
     width: fit-content;
 }
 
 #downArrow2.hovered {
-    color: #F0F0F0 !important;
+    color: rgba(255,255,255, 0.5) !important;
     font-size: 1rem;
 }
 
 /* About */
 .About {
-    background-color: white;
     height: 70vh;
     padding: 15vh 5em 5vh 5em;
 }
@@ -155,7 +168,7 @@ img {
 
 footer {
     /* background-color: #FFCC9E; */
-    background-color: white;
+    /* background-color: white; */
     padding: 5vh 3em 5vh 1em;
 }
 
