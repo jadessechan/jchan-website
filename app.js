@@ -5,8 +5,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 
-
 var indexRouter = require('./routes/index');
+var contactRouter = require('./routes/contact')
+
 // var yelpcampRouter = require('./routes/yelpcamp');
 // var textpredictionRouter = require('./routes/textprediction');
 // var sentimentRouter = require('./routes/sentimentanalysis');
@@ -34,6 +35,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/', indexRouter);
+// app.use('/contact', contactRouter);
+// app.post('/contact', contactRouter);
+app.get("/contact", function(req, res) {
+  res.sendFile(__dirname + '/views/contact.ejs');
+});
+
 // app.use('/yelpcamp', yelpcampRouter);
 // app.use('/textprediction', textpredictionRouter);
 // app.use('/sentimentanalysis', sentimentRouter);
